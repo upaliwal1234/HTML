@@ -1,0 +1,91 @@
+h1 {
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+p {
+    color:rgb(255, 111, 0);
+    font-size: 25px;
+    font-style: italic;
+}
+#para_2{    /* we use #<id_name>for styling id*/
+    color: white;
+    font-style: italic;
+}
+.para_3{    /* we use .<class_name>for styling class*/
+    color: royalblue;
+}
+input[type="text"]{
+    background-color: yellow;
+    color: red;
+}
+input[type="password"]{
+    background-color: yellow;
+}
+#body{
+    background-color: black;
+}
+section{
+    min-height: 3500px;
+    width: 600px;
+    border: 10px solid white;
+    background-color: burlywood;
+    text-align: center;
+    display: block;
+    margin:auto;
+}
+img{
+    width: 500px;
+    object-fit: cover;
+    border: 2px solid white;
+}
+.box p {
+    color: red;
+}
+ul > li {
+    border-top: 5px solid blue;
+    color: blueviolet
+}
+h1 + p {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: .5em;
+}
+p + img {
+    width:300px;
+    object-fit: cover;
+    border: 2px solid black;
+}
+h3 ~ p{
+    color:royalblue;
+    background-color: #333;
+}
+.box2{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    gap: 20px;
+}
+.container .box2 + .box2{
+    background-color:red;
+}
+.box2:nth-of-type(1):hover{
+    background-color: red;
+    border-radius: 50%;
+}
+.box2:nth-of-type(2):hover{
+    background-color: royalblue;
+    border-radius: 50%;
+}
+.box2:nth-of-type(3):hover{
+    background-color: red;
+    border-radius: 50%;
+}
+.box2:nth-of-type(4):hover{
+    background-color: royalblue;
+    border-radius: 50%;
+}
