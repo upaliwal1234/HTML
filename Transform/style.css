@@ -1,0 +1,66 @@
+/* div {
+  height: 200px;
+  width: 200px;
+  background: seagreen;
+  margin-inline: auto;
+  padding: 20px;
+}
+.text {
+  font-size: 2rem;
+  color: brown;
+}
+.box:hover {
+  position: relative;
+  border-radius: 50%;
+  transition: 2s;
+}
+.box:hover span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+section:nth-of-type(2):hover {
+  text-shadow: 3px 3px 2px rgba(128, 0, 0, 1);
+  margin: 20px;
+  font-size: 5rem;
+  transform: translate(300px);
+  transform: rotate(360deg);
+  transition: 3s;
+}
+.ball {
+  border: 2px solid red;
+  border-radius: 50%;
+  background: red;
+}
+.ball:hover{
+    position: relative;
+    transform: 2s ;
+} */
+main > .class {
+  background-color: aqua;
+  height: 200px;
+  width: 150px;
+  border: 2px solid black;
+}
+.class:hover {
+  width: 600px;
+  transition: 2s;
+  font-size: 2rem;
+}
+.class:nth-of-type(1) {
+  transition-timing-function: linear;
+  background-color: aquamarine;
+}
+.class:nth-of-type(2) {
+  transition-timing-function: ease-in;
+  background-color: wheat;
+}
+.class:nth-of-type(3) {
+  transition-timing-function: ease-out;
+  background-color: turquoise;
+}
+.class:nth-of-type(4) {
+  transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  background-color: coral;
+}
